@@ -11,7 +11,7 @@ bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
 
-  if (text === `/star`){
+  if (text === `/start`){
     bot.sendMessage(chatId, `Заполните форму ниже`, {
       reply_markup:{
         inline_keyboard: [
