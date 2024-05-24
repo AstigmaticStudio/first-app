@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      {score}
+      уо3цаш0щвзльд
       <button onClick={onClose}>Закрыть</button>
     </div>
   );
