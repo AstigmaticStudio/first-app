@@ -1,16 +1,17 @@
 import './App.css';
 //const tg = window.Telegram.WebApp;
 const text = `hellooooo`
+let score = 0
 
 function App() {
 
   const onClose = () => {
-    alert(text)
+    score += 1
   }
 
   return (
     <div className="App">
-      кпуавысч
+      {score}
       <button onClick={onClose}>Закрыть</button>
     </div>
   );
