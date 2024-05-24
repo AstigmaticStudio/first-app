@@ -4,14 +4,14 @@ const token = '6817765528:AAGdV909SPuezWt4W1Jj8FQTNFzy_3YPs_0';
 
 const bot = new TelegramBot(token, {polling: true});
 
-const WebAppUrl = `https://www.youtube.com/watch?v=MzO-0IYkZMU&t=316s`
+const WebAppUrl = `https://fist-web-app.netlify.app`
 
 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
 
-  if (text === `/start`){
+  if (text === `/star`){
     bot.sendMessage(chatId, `Заполните форму ниже`, {
       reply_markup:{
         inline_keyboard: [

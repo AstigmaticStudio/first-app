@@ -5,7 +5,7 @@ const text = `hellooooo`
 function App() {
 
   const onClose = () => {
-    alert(`Hello`)
+    alert(text)
   }
 
   return (
