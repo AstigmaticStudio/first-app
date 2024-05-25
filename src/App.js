@@ -1,6 +1,6 @@
 import './App.css';
 //const tg = window.Telegram.WebApp;
-const text = `hellooooo`
+//const text = `hellooooo`
 let score = 0
 
 function App() {
