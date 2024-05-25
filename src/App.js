@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       уо3цаш0щвзльд
-      <button>Закрыть</button>
+
     </div>
   );
 }
